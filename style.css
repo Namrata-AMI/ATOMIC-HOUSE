@@ -1,0 +1,186 @@
+body{
+    margin:0;
+    padding: 0;
+    font-family: "Plus Jakarta Sans", sans-serif !important;
+    min-height: 100vh;
+}
+
+.fa-compass{
+    color:goldenrod;
+    font-size: 2rem;
+}
+
+.navbar{
+    height:5rem;
+    background-color: white;
+    font-weight: 400;
+    
+}
+
+.nav-link{
+    color:#222222 !important; 
+}
+
+.f-info-links a{
+    text-decoration: none;
+    color:#222222;
+}
+
+.f-info-links a:hover{
+    text-decoration: underline;
+}
+
+.f-info-socials, .f-info-links, .f-info-brand{
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.f-info-socials i{
+    font-size: 1.3rem;
+    margin-right: 1rem;
+}
+
+.f-info{
+    text-align:center;
+    height:8rem;
+    display: flex;
+    background-color: #ebebeb;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-items: space-evenly;
+}
+
+.card{
+    border: none !important;
+    position: relative;
+  display: inline-block;
+}
+
+.card-img-top{
+    width:100% !important;
+    object-fit: cover !important;
+}
+
+.btn{
+        margin-top:1rem;
+        position: absolute;
+        top: 28%;
+        left: 11%;
+        transform: translate(-50%, -50%);
+        color: white;
+        padding: 10px 40px;
+        text-decoration: none;
+        border: 2px solid grey;
+        border-radius: 5px;
+        font-weight: bold;
+        z-index: 1; /* Ensure the button appears above the image */
+      }
+
+.btn :hover{
+    background-color: whitesmoke;
+    opacity: 0.8;
+    color: #ffffff;
+}
+
+.qoute{
+    margin-top :1rem;
+    position: absolute;
+    top:20%;
+    left:20%;
+    transform: translate(-50%, -50%);
+    color:white;
+    padding:10px;
+    z-index: 1;
+    font-weight: 300;
+}
+
+.main{
+    margin-top: 2rem;
+    background-color:azure;
+}
+
+.card-neck {
+    margin-left: 2rem;
+    width:30% !important;
+    border-radius: 5rem !important;
+}
+
+.card-neck img{
+    border-radius: 2rem;
+}
+
+.card-body{
+    margin-top:1rem;
+        position: absolute;
+        top: 40%;
+        left: 60%;
+        transform: translate(-50%, -50%);
+        color: rgb(44, 44, 44);
+        font-weight: 300;
+        object-fit: cover !important;
+
+}
+
+.secondary{
+    margin-top: 2rem;
+    background-color:azure;
+}
+
+.card-ear{
+    margin:1rem;
+    margin-left: 55rem ;
+    width:30% !important;
+    border-radius: 5rem !important;
+}
+
+.card-ear img{
+ border-radius: 2rem;
+}
+
+.body2{
+    margin-top:1rem;
+    position: absolute;
+    top:47rem;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    color: rgb(44, 44, 44);
+    font-weight: 300;
+    width:50rem;
+    object-fit: cover !important;
+}
+
+.body3{
+    margin-top:1rem;
+    position: absolute;
+    top:74rem;
+    left: 65%;
+    transform: translate(-50%, -50%);
+    color: rgb(44, 44, 44);
+    font-weight: 300;
+    width:50rem;
+    object-fit: cover !important;
+}
+
+.btn-price{
+        margin-top:1rem;
+            position: absolute;
+            top: 20rem;
+            left: 25%;
+            transform: translate(-50%, -50%);
+            color: rgb(44, 44, 44);
+            font-weight: 300;
+            object-fit: cover !important;
+}
+
+.btn-price2{
+    margin-top:1rem;
+        position: absolute;
+        top: 15rem;
+        left: 15%;
+        transform: translate(-50%, -50%);
+        color: rgb(44, 44, 44);
+        font-weight: 300;
+        object-fit: cover !important;
+}
